@@ -10,7 +10,7 @@ WORKDIR /app
 
 COPY --from=build /app/publish .
 
-ENV ASPNETCORE_HTTP_PORTS=8080
-EXPOSE 8080
+ENV ASPNETCORE_HTTP_PORTS=10000
+EXPOSE 10000
 
 ENTRYPOINT ["dotnet", "ProjectManagementSystem.dll"]
