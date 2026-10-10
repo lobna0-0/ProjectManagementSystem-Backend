@@ -1,0 +1,15 @@
+**/bin/
+**/obj/
+.vs/
+.vscode/
+*.user
+*.suo
+appsettings.Development.json
+.env
+.env.*
+!.env.example
+
+appsettings.Production.json
+
+# User-uploaded files
+wwwroot/uploads/
